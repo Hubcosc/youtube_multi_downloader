@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:rgb(90, 168, 45); /* Change this to your preferred background color */
+    background-image: url('background.jpg'); /* Uncomment and update this line if you want to use a background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333; /* Adjust the color as needed for better contrast with your background */
+    text-align: center;
+    font-size: 2.5em; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+    font-style: oblique;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.download-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #f1b1a8;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(231, 19, 83, 0.2); /* Add a shadow to the button */
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase the shadow on hover */
+}
+
+.status-message {
+    margin-top: 20px;
+    color: #333;
+    font-weight: bold;
+    border-left: 4px solid #007bff; /* Add a left border to make the status message stand out */
+    padding-left: 10px;
+}
+
+footer {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8em; /* Smaller font size for the copyright notice */
+    color: #333; /* Dark grey text color */
+    margin-top: 20px; /* Add some space above the footer */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
